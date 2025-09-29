@@ -1,14 +1,27 @@
-# 🏥 MediRecX - 医疗记录管理系统
+# 🏥 MediRecX - FHEVM Medical Records Management System
 
-基于FHEVM技术的完全加密医疗记录管理dapp，确保患者隐私安全。
+MediRecX is a revolutionary medical records management system built on FHEVM (Fully Homomorphic Encryption Virtual Machine) blockchain technology. It enables patients to securely store encrypted medical data while granting authorized doctors precise access to records.
 
-## 🌟 项目特色
+> **MediRecX** - Making medical data management more secure, private, and intelligent 🏥✨
 
-- **完全加密存储** - 使用FHEVM全同态加密技术
-- **精准权限控制** - 患者完全控制医疗数据访问
-- **双环境支持** - 支持真实网络和本地Mock开发
-- **现代化UI** - 美观的医疗主题界面设计
-- **多角色支持** - 患者和医生不同功能界面
+## 🌟 Key Features
+
+### 🔐 Zero-Knowledge Privacy Protection
+- **Fully Encrypted Storage**: Medical data remains encrypted during storage and processing using FHEVM
+- **Granular Permission Control**: Patients have complete control over doctor access permissions
+- **Time-Limited Authorizations**: Access permissions can be set with expiration dates
+- **Zero-Knowledge Verification**: Validate data without revealing contents
+
+### 🏗️ Technical Excellence
+- **Dual Environment Support**: Seamless switching between real networks and local mock development
+- **Modern UI/UX**: Beautiful medical-themed interface design with responsive layout
+- **Multi-Role Support**: Separate dashboards for patients and doctors
+- **Bilingual Interface**: Chinese and English language support
+
+### 🚀 Developer Experience
+- **FHEVM Integration**: Native support for homomorphic encryption operations
+- **Automated Environment Detection**: Intelligent switching between production and development modes
+- **Complete Toolchain**: Hardhat, Next.js, TypeScript, and comprehensive testing suite
 
 ## 🏗️ 项目结构
 
@@ -211,6 +224,40 @@ npm run build
 - [ ] 集成更多区块链网络
 - [ ] 医疗数据分析功能
 
+## 🌐 Live Deployment
+
+### Sepolia Testnet
+- **Contract Address**: `0x933861CA3D843262076A3a3aC9b8Cc88c8aE9D68`
+- **Network**: Ethereum Sepolia Testnet (Chain ID: 11155111)
+- **Verification**: ✅ [Etherscan Verified](https://sepolia.etherscan.io/address/0x933861CA3D843262076A3a3aC9b8Cc88c8aE9D68#code)
+- **Frontend**: Ready for static deployment
+
+### Static Deployment
+The frontend has been built as static files and can be deployed to:
+- Vercel, Netlify, Surge, Firebase Hosting
+- AWS S3 + CloudFront, GitHub Pages
+- Any static hosting service
+
+## 📊 Project Status
+
+- ✅ **Smart Contracts**: Deployed and verified on Sepolia
+- ✅ **Frontend**: Built and ready for static deployment
+- ✅ **FHEVM Integration**: Fully functional with mock and production modes
+- ✅ **UI/UX**: Complete bilingual interface
+- ✅ **Testing**: Basic functionality verified
+
 ---
 
-*MediRecX - 让医疗数据管理更安全、更私密、更智能* 🏥✨
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
+
+## 📄 License
+
+This project is licensed under the BSD-3-Clause-Clear License.
+
+---
+
+**MediRecX** - Revolutionizing medical data management with privacy-preserving blockchain technology 🏥✨
+
+*Built with ❤️ using FHEVM, Next.js, and modern web technologies*
